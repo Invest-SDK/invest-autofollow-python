@@ -1,21 +1,20 @@
 # T-Tech Autofollow SDK
 
-[![PyPI](https://img.shields.io/pypi/v/ttech-autofollow-sdk)](https://pypi.org/project/ttech-autofollow-sdk/)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ttech-autofollow-sdk)](https://www.python.org/downloads/)
-![GitHub](https://img.shields.io/github/license/RussianInvestments/python-autofollow-sdk)
+[![PyPI](https://img.shields.io/gitlab/v/release/240?gitlab_url=https%3A%2F%2Fopensource.tbank.ru)](https://opensource.tbank.ru/invest/invest-autofollow/-/packages)
+[![PyPI - Python Version](https://img.shields.io/python/required-version-toml?tomlFilePath=https://opensource.tbank.ru/invest/invest-autofollow/-/raw/master/pyproject.toml)](https://www.python.org/downloads/)
+![Opensource](https://img.shields.io/gitlab/license/240?gitlab_url=https%3A%2F%2Fopensource.tbank.ru)
 <!-- ![PyPI - Downloads](https://img.shields.io/pypi/dm/ttech-autofollow-sdk) -->
 
 Данный репозиторий предоставляет клиент для взаимодействия ведущих стратегий автоследования с API [Т-Инвестиций]((https://www.tinkoff.ru/invest/)) на языке Python.
 
 - [Документация по API](https://developer.tbank.ru/invest/services/autofollow/head-autofollow)
-<!-- - [Документация по клиенту](https://RussianInvestments.github.io/python-autofollow-sdk/) -->
 
 ## Начало работы
 
 <!-- terminal -->
 
 ```
-$ pip install ttech-autofollow-sdk
+$ pip install ttech-autofollow-sdk --index-url https://opensource.tbank.ru/api/v4/projects/240/packages/pypi/simple
 ```
 
 ## Возможности

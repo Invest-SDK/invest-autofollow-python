@@ -1,5 +1,5 @@
 [project]
-name = "Ttech-autofollow-sdk"
+name = "ttech-autofollow-sdk"
 version = "1.0.2"
 description = "T-Technologies Public Invest Autofollow SDK"
 authors = [

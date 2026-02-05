@@ -50,3 +50,12 @@ update-version:
 
 .PHONY: update
 update: gen-client format lint update-version
+
+.PHONY: publish-opensource
+publish-opensource:
+	@poetry publish --build --no-interaction -r autofolow-opensource --username=$(pypi_username) --password=$(pypi_password)
+	rm -rf ./dist
+
+.PHONY: config-opensource
+config-opensource:
+	@poetry config repositories.autofolow-opensource https://opensource.tbank.ru/api/v4/projects/240/packages/pypi
