@@ -5,7 +5,7 @@
 ![Opensource](https://img.shields.io/gitlab/license/240?gitlab_url=https%3A%2F%2Fopensource.tbank.ru)
 <!-- ![PyPI - Downloads](https://img.shields.io/pypi/dm/ttech-autofollow-sdk) -->
 
-Данный репозиторий предоставляет клиент для взаимодействия ведущих стратегий автоследования с API [Т-Инвестиций]((https://www.tinkoff.ru/invest/)) на языке Python.
+Данный репозиторий предоставляет клиент для взаимодействия ведущих стратегий автоследования с API [Т-Инвестиций]((https://developer.tbank.ru/invest/intro/intro)) на языке Python.
 
 - [Документация по API](https://developer.tbank.ru/invest/services/autofollow/head-autofollow)
 
@@ -42,11 +42,11 @@ with Client(access_token=TOKEN) as client:
 ```
 
 > :warning: **Не публикуйте токены в общедоступные репозитории**<br/><br/>
-> Один из вариантов сохранения токена - использование [environment variables](https://github.com/RussianInvestments/python-autofollow-sdk/blob/main/examples/get_strategies.py).
+> Один из вариантов сохранения токена - использование [environment variables](https://opensource.tbank.ru/invest/invest-autofollow/-/blob/master/examples/get_strategies.py).
 
-Остальные примеры доступны в [examples](https://github.com/RussianInvestments/python-autofollow-sdk/blob/main/examples).
+Остальные примеры доступны в [examples](https://opensource.tbank.ru/invest/invest-autofollow/-/tree/master/examples).
 
 
 ## License
 
-Лицензия [The Apache License](https://github.com/RussianInvestments/python-autofollow-sdk/blob/main/LICENSE).
+Лицензия [The Apache License](https://opensource.tbank.ru/invest/invest-autofollow/-/blob/master/LICENSE).
